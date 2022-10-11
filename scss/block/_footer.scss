@@ -28,7 +28,7 @@
   justify-content: center;
   gap: 30px;
 }
-.footer__button {
+.footer-button {
   @include text-style__7;
   color: $grey;
   background-color: $white;
@@ -39,7 +39,7 @@
     background-color: $light-white;
   }
 }
-.footer__button > span {
+.footer-button > span {
   @include text-style__8;
   color: $grey;
   background-color: $white;
@@ -48,20 +48,20 @@
     background-color: $light-white;
   }
 }
-.footer__wrapper2 {
+.footer-wrapper2 {
   display: none;
 }
-.footer__wrapper-2 {
+.footer-wrapper-2 {
   @include flex;
   justify-content: space-evenly;
   background-color: $black;
   padding: 20px 0 20px;
 }
-.footer__list-2 {
+.footer-list-2 {
   @include flex;
   gap: 25px;
 }
-.footer__list-title {
+.footer-list-title {
   @include text-style__2;
   color: $grey;
 
@@ -69,29 +69,29 @@
     color: $yellow;
   }
 }
-.footer__icons {
+.footer-icons {
   @include flex;
   gap: 20px;
 }
 
 @media only screen and (max-width: 820px) {
-  .footer__wrapper2 {
+  .footer-wrapper2 {
     @include block-2;
     background-color: $light-blue;
   }
-  .footer__title {
+  .footer-title {
     @include text-style__9;
     color: $light-white;
   }
-  .footer__subtitle {
+  .footer-subtitle {
     @include text-style__9;
     color: $light-white;
   }
-  .footer__button {
+  .footer-button {
     @include text-style__7;
     color: $grey;
   }
-  .footer__wrapper {
+  .footer-wrapper {
     display: none;
   }
 }

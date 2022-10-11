@@ -3,58 +3,58 @@
   padding: 0 20px;
   margin: 80px auto;
 }
-.main__section {
+.main-section {
   @include flex;
   justify-content: space-between;
 }
-.main__wrapper {
+.main-wrapper {
   @include flex;
   justify-content: space-evenly;
   gap: 30px;
 }
-.main__list {
+.main-list {
   @include block;
   list-style-type: none;
 }
-.main__list-title {
+.main-list-title {
   @include block;
 }
-.main__image {
+.main-image {
   padding-bottom: 20px;
 }
-.main__title {
+.main-title {
   @include text-style__4;
   padding-bottom: 20px;
   color: $dark-grey;
 }
-.main__subtitle {
+.main-subtitle {
   @include text-style__1;
   color: $grey;
 }
-.main__section-1 {
+.main-section-1 {
   margin: 120px 0 0;
   @include flex;
   justify-content: space-between;
 }
-.main__image-2 {
+.main-image-2 {
   border-radius: 230px;
 }
-.main__wrapper-1 {
+.main-wrapper-1 {
   .main_wrapper-list {
     @include block;
     max-width: 445px;
   }
 }
-.main__wrapper-title {
+.main-wrapper-title {
   @include text-style__5;
   color: $dark-grey;
   padding-bottom: 20px;
 }
-.main__wrapper-subtitle {
+.main-wrapper-subtitle {
   @include text-style__1;
   color: $grey;
 }
-.main__wrapper-button {
+.main-wrapper-button {
   @include text-style__2;
   color: $white;
   background-color: $yellow;
@@ -68,20 +68,20 @@
   }
 }
 
-.main__section-1-2 {
+.main-section-1-2 {
   display: none;
 }
 
-.main__section-2 {
+.main-section-2 {
   @include flex;
   justify-content: space-between;
   margin: 60px 0 60px;
 }
-.main__wrapper-2-list {
+.main-wrapper-2-list {
   @include block;
   max-width: 445px;
 }
-.main__wrapper-2-button {
+.main-wrapper-2-button {
   @include text-style__2;
   color: $white;
   background-color: $yellow;
@@ -94,70 +94,70 @@
     padding: 10px 20px;
   }
 }
-.main__section-3 {
+.main-section-3 {
   @include flex;
   justify-content: space-between;
 }
-.main__wrapper-3 {
+.main-wrapper-3 {
   @include flex;
   justify-content: space-evenly;
   gap: 30px;
 }
-.main__wrapper-3-list {
+.main-wrapper-3-list {
   @include block;
   list-style-type: none;
 }
 
 @media only screen and (max-width: 1200px) {
-  .main__wrapper {
+  .main-wrapper {
     display: block;
     width: 600px;
   }
-  .main__list {
+  .main-list {
     display: flex;
     padding: 10px 0 10px;
   }
 }
 @media only screen and (max-width: 650px) {
-  .main__wrapper-2 {
+  .main-wrapper-2 {
     display: block;
   }
-  .main__list {
+  .main-list {
     @include block-2;
     padding: 10px 0 10px;
   }
-  .main__list-title {
+  .main-list-title {
     @include block-2;
   }
-  .main__image-2 {
+  .main-image-2 {
     width: 310px;
     height: 310px;
   }
-  .main__wrapper-title {
+  .main-wrapper-title {
     @include text-style__6;
     color: $dark-grey;
   }
-  .main__wrapper-subtitle {
+  .main-wrapper-subtitle {
     color: $grey;
   }
 }
 @media only screen and (max-width: 820px) {
-  .main__section-1-2 {
+  .main-section-1-2 {
     @include block-2;
   }
-  .main__wrapper-list {
+  .main-wrapper-list {
     @include block-2;
   }
-  .main__section-2 {
+  .main-section-2 {
     @include block-2;
   }
-  .main__wrapper-2-list {
+  .main-wrapper-2-list {
     @include block-2;
   }
-  .main__section-1 {
+  .main-section-1 {
     display: none;
   }
-  .main__section-3 {
+  .main-section-3 {
     display: none;
   }
 }
